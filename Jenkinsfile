@@ -26,7 +26,7 @@ pipeline {
      }
      stage('Dockerize') {
        steps {
-        sh "docker build . -t buninfo:${env.BUILD_NUMBER"
+        sh "docker build . -t buninfo:${env.BUILD_NUMBER}"
        }
      } 
    }
