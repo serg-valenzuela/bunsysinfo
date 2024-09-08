@@ -21,7 +21,7 @@ pipeline {
      }
      stage('Test') {
        steps {
- 	sh '${BUNPATH}/bun test'
+ 	sh '${BUNPATH}/bun test .'
        }	 			
      }
    }
