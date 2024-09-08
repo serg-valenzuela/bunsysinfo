@@ -12,6 +12,7 @@ pipeline {
      stage('Install dependencies') {
        steps {
 	 sh '${BUNPATH}/bun install'
+	 echo "Successful Installation"
        }
      }
    }
